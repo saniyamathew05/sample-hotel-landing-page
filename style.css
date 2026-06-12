@@ -12,6 +12,7 @@
     height: 100vh;    
     position: relative;
     text-align:center;
+    margin-bottom: 20px;
 }
 
 .hero-text {
@@ -23,54 +24,117 @@
 
 }
 
-.book-btn {
+.book-btn ,
+.know-btn{
     font-size:18px;
     margin-top: 10px;
     background-color: aqua;
     padding: 10px;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
 }
 .about-section{
-    margin-bottom: 100px;
-
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
 }
 .about-us {
-    float: left;
     width:50%;
-    margin: 0px 100px 0px 20px;
-    text-align: center;
+    font-weight: lighter;
 }
-
-.about-section > h1 { /* h1 is the immediate child of about-section*/
-    text-align: center;
-    margin:10px 0px 10px 0px;
-    font-weight:normal;
+ul {
+    font-weight: lighter;
+}
+.h1-about {
     text-decoration: underline;
+    text-align: center;
+}
+.know-more-container {
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    
+}
+.fa-solid {
+    margin-right: 10px;
+}
+.room-images img{
+    width:500px;
+    height: 400px;
+    
+}
+.room-type-container {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: row-reverse;
+    padding: 20px 20px 20px 20px;
+}
+.room-list {
+    padding-right : 10px;
+}
+.room-heading,
+.form-heading{
+    text-decoration: underline;
+    text-align: center;
+    
+}
+.room-list h4{
+    font-size:18px;
+    
+}
+.room-list p {
+    font-weight: lighter;
+}
+.help-button {
+    background-color: brown;
+    width:fit-content;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    position: fixed;
+    bottom:20px;
+    right: -10px;
+    
+}
+.help-button h4{
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+.booking-form {
+    border: 2px solid grey;
+    margin: 20px;
+    width: max-content;
+    border-radius: 15px;
+    padding: 50px;
+    
 
 }
-.about-us p {
+.form-group {
+    margin:15px;
+}
+.booking-container {
+    display: flex;
+    justify-content: center;
+    
+}
+label {
+    font-size: 20px;
+   
+}
+input {
+    padding: 5px;
+    font-size: 15px;
+}
+.form-heading{
+    font-weight: 550;
+}
+p {
     color: grey;
 }
-.about-amenities > h3 {
-    font-weight:600;
-}
-.about-amenities ul {
-    margin-top:10px;
-    color:grey;
-    text-align:left;
-}
-.know-btn {
-    font-size:12px;
-    margin-top: 10px;
-    background-color: aqua;
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
-    cursor:pointer;
-}
-.about-amenities,
-.abouut-us {
-    display: inline;
+label,input,select {
+    color: grey;
 }
