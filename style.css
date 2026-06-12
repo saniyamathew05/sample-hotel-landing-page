@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'pliant', sans-serif;
+}
+
+.hero-section {
+    background-image: url(https://imgs.search.brave.com/5jlZFaqU9Z4aaAb8K9TEzWZB-Rkz7pjyp4Y5dixlspY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4Lzk3LzIxLzA0/LzM2MF9GXzg5NzIx/MDQ1M19nZ1dyNWhq/b3RZYUpCNlVRNWF2/cjRvcngxeUhkTWRs/aC5qcGc);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;    
+    position: relative;
+    text-align:center;
+}
+
+.hero-text {
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.book-btn {
+    font-size:18px;
+    margin-top: 10px;
+    background-color: aqua;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.about-section{
+    margin-bottom: 100px;
+
+}
+.about-us {
+    float: left;
+    width:50%;
+    margin: 0px 100px 0px 20px;
+    text-align: center;
+}
+
+.about-section > h1 { /* h1 is the immediate child of about-section*/
+    text-align: center;
+    margin:10px 0px 10px 0px;
+    font-weight:normal;
+    text-decoration: underline;
+
+}
+.about-us p {
+    color: grey;
+}
+.about-amenities > h3 {
+    font-weight:600;
+}
+.about-amenities ul {
+    margin-top:10px;
+    color:grey;
+    text-align:left;
+}
+.know-btn {
+    font-size:12px;
+    margin-top: 10px;
+    background-color: aqua;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.about-amenities,
+.abouut-us {
+    display: inline;
+}
